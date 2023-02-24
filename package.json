@@ -1,0 +1,52 @@
+{
+  "name": "vue3-sandbox",
+  "homepage": "https://helenaferry.github.io/",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static"
+  },
+  "dependencies": {
+    "@formkit/i18n": "^1.0.0-beta.8",
+    "@formkit/tailwindcss": "^1.0.0-beta.6",
+    "@formkit/vue": "^1.0.0-beta.6",
+    "pinia": "^2.0.13",
+    "vue": "^3.2.32",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@headlessui/vue": "^1.5.0",
+    "@heroicons/vue": "^1.0.6",
+    "@storybook/addon-actions": "^6.4.22",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-links": "^6.4.22",
+    "@storybook/builder-vite": "^0.1.30",
+    "@storybook/vue3": "^6.4.22",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.0",
+    "@tailwindcss/line-clamp": "^0.3.1",
+    "@tailwindcss/typography": "^0.5.2",
+    "@types/tailwindcss": "^3.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/compiler-sfc": "^3.2.26",
+    "autoprefixer": "^10.4.4",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.14.0",
+    "eslint-plugin-vue": "^8.7.1",
+    "gh-pages": "^3.2.3",
+    "postcss": "^8.0.0",
+    "prettier-plugin-tailwindcss": "^0.1.8",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.1",
+    "vue-loader": "^16.8.3"
+  }
+}

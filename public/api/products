@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "id": "product1",
+            "name": "Produkt 1",
+            "displayPrice": "580,00 kr",
+            "price": "580"
+        },
+        {
+            "id": "product2",
+            "name": "Produkt 2",
+            "displayPrice": "5000,00 kr",
+            "price": "5000"
+        },
+        {
+            "id": "product3",
+            "name": "Produkt 3",
+            "displayPrice": "3500,00 kr",
+            "price": "3500"
+        }
+    ]
+}
