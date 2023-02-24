@@ -1,0 +1,13 @@
+{
+   "cart":[
+      {
+         "product": {
+            "id": "product1",
+            "name": "Produkt 1",
+            "displayPrice": "580,00 kr",
+            "price": "580"
+         },
+         "quantity": 5
+      }
+   ]
+}
